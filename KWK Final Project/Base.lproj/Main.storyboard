@@ -57,7 +57,7 @@ Productivity and Scheduling</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.58431372550000005" green="0.85882352939999995" blue="0.27450980390000002" alpha="0.54550393210000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Motivation">
+                                <state key="normal" title="Motivation page">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                             </button>
