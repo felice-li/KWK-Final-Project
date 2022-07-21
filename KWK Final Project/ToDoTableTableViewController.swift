@@ -29,19 +29,6 @@ class ToDoTableTableViewController: UITableViewController {
       }
     }
     
-    func createToDos() -> [ToDo] {
-
-      let swift = ToDo()
-      swift.name = "Learn Swift"
-      swift.important = true
-
-      let dog = ToDo()
-      dog.name = "Walk the Dog"
-      // important is set to false by default
-
-      return [swift, dog]
-    }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
       // this gives us a single ToDo
@@ -74,6 +61,7 @@ class ToDoTableTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let addVC = segue.destination as? AddToDoViewController {
           addVC.previousVC = self
+        }
         if let completeVC = segue.destination as? CompleteToDoViewController {
           if let toDo = sender as? ToDoCD {
             completeVC.selectedToDo = toDo
@@ -126,5 +114,4 @@ class ToDoTableTableViewController: UITableViewController {
 
 
 
-    }
 }

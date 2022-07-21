@@ -106,7 +106,7 @@ Productivity and Scheduling</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dt4-iN-s1e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820.289855072464" y="110.49107142857143"/>
+            <point key="canvasLocation" x="1819" y="94"/>
         </scene>
         <!--Complete To Do View Controller-->
         <scene sceneID="dfs-WK-mGm">
@@ -116,8 +116,8 @@ Productivity and Scheduling</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of To DO will go here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTg-ZM-EES">
-                                <rect key="frame" x="104" y="199" width="207" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of To Do will go here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTg-ZM-EES">
+                                <rect key="frame" x="104" y="199" width="204" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -200,7 +200,7 @@ Productivity and Scheduling</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VPF-x2-AgR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2662" y="110"/>
+            <point key="canvasLocation" x="2661" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="egc-oE-1bh">
@@ -218,7 +218,7 @@ Productivity and Scheduling</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWQ-uE-21V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="910.14492753623199" y="110.49107142857143"/>
+            <point key="canvasLocation" x="912" y="94"/>
         </scene>
     </scenes>
     <resources>
